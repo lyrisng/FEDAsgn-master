@@ -1,0 +1,467 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Covid-19</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- Bootstrap 4.5 CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Image Carousel -->
+    <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+        <!-- Carousel Content -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/carousel/11.jpg" alt="" class="w-100" />
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-8 bg-custom d-none d-md-block py-3 px-0">
+                                <h1>USA</h1>
+                                <div class="border-top border-primary w-50 mx-auto my-3"></div>
+                                <h3 class="pb-3">25,354,044 Confirmed Cases</h3>
+                                <button type="button" data-toggle="modal" data-target="#myModal" data-src="https://www.youtube.com/embed/IV-WQSgeWEc" class="btn btn-success btn-lg mr-2 video-btn">Short Video</button>
+                                <button type="button" data-toggle="modal" data-target="#usa2" class="btn btn-primary btn-lg ml-2">Overview</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel/22.jpg" alt="" class="w-100" />
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-8 bg-custom d-none d-md-block py-3 px-0">
+                                <h1>India</h1>
+                                <div class="border-top border-primary w-50 mx-auto my-3"></div>
+                                <h3 class="pb-3">10,720,048 Confirmed Cases</h3>
+                                <button type="button" data-toggle="modal" data-target="#myModal" data-src="https://www.youtube.com/embed/EWq_8jPbGPk" class="btn btn-success btn-lg mr-2 video-btn">Short Video</button>
+                                <button type="button" data-toggle="modal" data-target="#india2" class="btn btn-primary btn-lg ml-2">Overview</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel/33.jpg" alt="" class="w-100" />
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-8 bg-custom d-none d-md-block py-3 px-0">
+                                <h1>Brazil</h1>
+                                <div class="border-top border-primary w-50 mx-auto my-3"></div>
+                                <h3 class="pb-3">8,996,876 Confirmed Cases</h3>
+                                <button type="button" data-toggle="modal" data-target="#myModal" data-src="https://www.youtube.com/embed/vhTz9PM1F3E" class="btn btn-success btn-lg mr-2 video-btn">Short Video</button>
+                                <button type="button" data-toggle="modal" data-target="#brazil2" class="btn btn-primary btn-lg ml-2">Overview</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel/44.jpg" alt="" class="w-100" />
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-8 bg-custom d-none d-md-block py-3 px-0">
+                                <h1>Russia</h1>
+                                <div class="border-top border-primary w-50 mx-auto my-3"></div>
+                                <h3 class="pb-3">3,813,048 Confirmed Cases</h3>
+                                <button type="button" data-toggle="modal" data-target="#myModal" data-src="https://www.youtube.com/embed/7tziw5i3vy8" class="btn btn-success btn-lg mr-2 video-btn">Short Video</button>
+                                <button type="button" data-toggle="modal" data-target="#russia2" class="btn btn-primary btn-lg ml-2">Overview</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel/55.jpg" alt="" class="w-100" />
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-8 bg-custom d-none d-md-block py-3 px-0">
+                                <h1>United Kingdom</h1>
+                                <div class="border-top border-primary w-50 mx-auto my-3"></div>
+                                <h3 class="pb-3">3,743,738 Confirmed Cases</h3>
+                                <button type="button" class="btn btn-success btn-lg mr-2 video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/bgzvudcZWKQ" data-target="#myModal">Short Video</button>
+                                <button type="button" data-toggle="modal" data-target="#uk2" class="btn btn-primary btn-lg ml-2">Overview</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Carousel Content -->
+        <!-- Previous & Next Buttons -->
+        <a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="fas fa-chevron-left fa-2x"></span>
+        </a>
+        <a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
+            <span class="fas fa-chevron-right fa-2x"></span>
+        </a>
+        <!-- End Previous & Next Buttons -->
+    </div>
+    <!-- End Image Carousel -->
+    <!-- Main Page Heading -->
+    <div class="col-12 text-center mt-5">
+        <h1 class="text-dark pt-4">Honourable Mentions</h1>
+        <div class="border-top border-primary w-25 mx-auto my-3"></div>
+        <p class="lead">Countries That Looked Intresting To Talk About</p>
+    </div>
+    <!-- Three Column Section -->
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md-4 my-4">
+                <img src="img/11.jpg" alt="" class="w-100" />
+                <h4 class="my-4">Singapore (59,425 Confirmed Cases)</h4>
+                <p>Although Singapore does not have much cases, Singapore was placed under honourable mention as despite it being a small country, Singapore handled the situation well and kept cases from spreading fast.</p>
+                <a href="https://www.asianscientist.com/2020/04/features/singapore-covid-19-response/" target="_blank" class="btn btn-outline-dark btn-md">Read More</a>
+            </div>
+            <div class="col-md-4 my-4">
+                <img src="img/22.jpg" alt="" class="w-100" />
+                <h4 class="my-4">China (100,641 Confirmed Cases)</h4>
+                <p>When coronavirus first emerged in Wuhan, China, there were 80,000 cases identified within 3 months and killing 3,000 people. After that, the Chinese government decided to enforce stricter lockdown rules and containing the virus efficiently which leads them stopping the virus successfully to a certain extent.</p>
+                <a href="https://scroll.in/article/979357/what-china-did-right-in-handling-covid-19-pandemic-and-the-united-states-did-not" target="_blank" class="btn btn-outline-dark btn-md">Read More</a>
+            </div>
+            <div class="col-md-4 my-4">
+                <img src="img/33.jpg" alt="" class="w-100" />
+                <h4 class="my-4">Korea (77,395 Confirmed Cases)</h4>
+                <p>Korea's biggest outbreak happened when a 61-year-old women with fever entered Shincheonji Church of Jesus in Daegu where she left behind a trail of pathogens before she left and led to thousands of infections. Just as it seemed like there was no hope for Korea, the government isolated and contained infected victims which calmed the cases down alot</p>
+                <a href="https://ourworldindata.org/covid-exemplar-south-korea#:~:text=Isolate%20and%20quarantine,relieve%20hospitals%20of%20bed%20shortages." target="_blank" class="btn btn-outline-dark btn-md">Read More</a>
+            </div>
+        </div>
+    </div>
+    <!-- End Three Column Section -->
+    <!-- Covid-Gif Navbar First -->
+    <a class="navbar bg-primary sticky-top covid" href="#covid" role="button" data-toggle="collapse"></a>
+    <!-- Start Fixed Background IMG -->
+    <div class="fixed-background">
+
+        <div class="row text-light py-5">
+            <div class="col-12 text-center">
+                <h1 class="py-4 bg-custom">Top 12 Countries Affected By Covid-19</h1>
+                <table class="content-table table-center">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Country</th>
+                            <th>No Of Cases</th>
+                            <th>Deaths</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>USA</td>
+                            <td>25,512,197</td>
+                            <td>429,652</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>India</td>
+                            <td>10,733,131</td>
+                            <td>154,147</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Brazil</td>
+                            <td>9,058,687</td>
+                            <td>221,547</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Russia</td>
+                            <td>3,813,048</td>
+                            <td>72,185</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>UK</td>
+                            <td>3,743,738</td>
+                            <td>103,126</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>France</td>
+                            <td>3,079,545</td>
+                            <td>74,405</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Spain</td>
+                            <td>2,705,001</td>
+                            <td>57,806</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Italy</td>
+                            <td>2,515,507</td>
+                            <td>87,381</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Turkey</td>
+                            <td>2,457,118</td>
+                            <td>25,605</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Germany</td>
+                            <td>2,192,850</td>
+                            <td>55,752</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>Colombia</td>
+                            <td>2,067,575</td>
+                            <td>52,913</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Argentina</td>
+                            <td>1,1905,524</td>
+                            <td>47,601</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="fixed-wrap">
+            <div class="fixed"></div>
+        </div>
+    </div>
+    <!-- End Fixed Background IMG -->
+    <!-- Emoji Navbar Second -->
+    <a class="navbar bg-primary sticky-top covid" href="#covid" role="button" data-toggle="collapse"><i class="fas fa-user-nurse"></i></a>
+
+    <div class="collapse" id="covid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3"><img src="img/emoji/wash.gif" alt="" class="w-100" /></div>
+                <div class="col-sm-6 col-md-3"><img src="img/emoji/dist.gif" alt="" class="w-100" /></div>
+                <div class="col-sm-6 col-md-3"><img src="img/emoji/home.gif" alt="" class="w-100" /></div>
+                <div class="col-sm-6 col-md-3"><img src="img/emoji/mask.gif" alt="" class="w-100" /></div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Popup -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="videos" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="usa2" tabindex="-1" aria-labelledby="USASummary" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="usa2">Summary for USA</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>The U.S. has nearly a quater of the world's cases and a fifth of all deaths. There are more Americans that died from Covid-19 than in World War II. As Covid-19 became the third leading cause of death in the U.S. in 2020, behind heart disease and cancer. President Donald Trump declard the U.S. outbreak a public health emergency when the first american case was reported though the initial U.S. response to the pandemic was slow in terms of preparing the healthcare system, stopping other travels and etc. Not only that, Trump downplayed the threat posed by the virus and claimed that it was under control when it is clearly not. The situation got serious when the first known American deaths occurred in Feburary and Trump then signed the Coronavirus Preparedness and Response Supplemental Appropriations Act, which provided $8.3 billion in emergency funding for federal agencies to respond to the outbreak. (Wikipedia.org)</p>
+                </div>
+                <div class="model-footer">
+                    <button type="button" class="btn btn-secondary btn-sm ml-2 my-3" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="india2" tabindex="-1" aria-labelledby="IndiaSummary" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="india2">Summary for India</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>India currently holds the 2nd highest number of confirmed cases in the world after USA with more than 10 million reported Covid-19 Cases. The cases peaked during mid-September 2020 when the daily reports went over 90,000 cases. On July 2020, India's Ministry of Information and Broadcasting claimed the country's case fatality rate was among the lowest at 2.41% and "steadily declining". Fast forward to 10 june, India's recoveries exceeded active cases for the first time as infection rates started to drop significantly in September, and the number of daily new cases and active cases started to decline rapidly and may come under control by Feburary 2021. (Wikipedia.org)</p>
+                </div>
+                <div class="model-footer">
+                    <button type="button" class="btn btn-secondary btn-sm ml-2 my-3" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="brazil2" tabindex="-1" aria-labelledby="BrazilSummary" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="brazil2">Summary for Brazil</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>The first case in brazil happened on 25 Feburary 2020 when a man from Sao Paulo tested positive for the virus. The diesease had spread to every state in Brazil by 21 March which led to the country reporting its 1 millionth case on 19 June 2020. Brazil currently holds the third-highest number of confirmed Covid-19 cases in the world behind India and on 8 Auguest 2020, the country hit its 3 millionth case. The pandemic triggered a variety of responses from the federal, state and local governments, having an impact on politics, education, the environment, and the economy. On 27 March, Brazil announced a temporary ban on foreign air travelers and most state governors have imposed quarantines to prevent the spread of the virus. (Wikipedia.org)</p>
+                </div>
+                <div class="model-footer">
+                    <button type="button" class="btn btn-secondary btn-sm ml-2 my-3" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="russia2" tabindex="-1" aria-labelledby="RussiaSummary" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="russia2">Summary for Russia</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Russia confirmed that the virus have reached the country when two Chinese citizens have been tested positive for Covid-19 on 31 Janurary 2020. Russia took early prevention measures including restricting the border with china and extensive testing but the infection started to spread from Italy from 2 March leading to additional measures taken such as cancelling events, closing schools, theatres and museums as well as shutting the border and declaring a non-working period which lasted for two extensions. Currently, Russia has the fourth-highest number of confirmed cases in the world and first in Europe. (Wikipedia.org)</p>
+                </div>
+                <div class="model-footer">
+                    <button type="button" class="btn btn-secondary btn-sm ml-2 my-3" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="uk2" tabindex="-1" aria-labelledby="UKSummary" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="uk2">Summary for United Kingdom</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>United Kingdom has the world's fourth-highest death rate per hundred thousand population and there are close to 4,000,000 confirmed cases as of 29 Janurary 2021 making it the fifth highest number of confirmed cases in the world. There has been some disparity between the outbreak's severity in each of the four nations. Health in the United kingdom is a devolved matter with England, Northern Ireland, Scotland and Wales having their own systems of publicly funded healthcare, seperate governments and parliaments, together with a smaller private sector and voluntary provision. In March 2020, the UK governments imposed a stay-at-home order, dubbed "Stay Home, Protect the NHS, Save Lives", banning all non-essential travel and closing most gathering places. People were told to keep apart in public. Police were enforced stricter rules and the Coronavirus Act 2020 gave all four governments emergency powers which was not used since the Second World War. In December, the UK became the first country to authorise and begin the use of Pfizer/BioNTech Covid-19 Vaccine in a mass vaccination programme throughout 2021. (Wikipedia.org)</p>
+                </div>
+                <div class="model-footer">
+                    <button type="button" class="btn btn-secondary btn-sm ml-2 my-3" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Two Column Section -->
+    <div class="container my-5">
+        <div class="row py-4">
+            <div class="col-lg-4 mb-4 my-lg-auto">
+                <h1 class="text-dark font-weight-bold mb-3">Have You Paid Attention?</h1>
+                <p class="mb-4">If you want to challenge your understanding of the countries affect by Covid-19, there is a quiz made for you! Click the button below to take the quiz and test your knowledge.</p>
+                <a href="#" class="btn btn-outline-dark btn-lg">Start Quiz</a>
+            </div>
+            <div class="col-lg-8"><img src="img/class.jpg" alt="" class="w-100" /></div>
+        </div>
+    </div>
+    <!-- End Two Column Section -->
+    <!-- Start Jumbotron -->
+    <div class="jumbotron py-5 mb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-lg-8 col-xl-9 my-auto">
+                    <h4>Learn how to keep yourself safe during the Covid-19 Pandemic.</h4>
+                </div>
+                <div class="col-md-5 col-lg-4 col-xl-3">
+                    <a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html" target="_blank" class="btn btn-primary btn-lg">Stay Safe Today</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Jumbotron -->
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <div class="row text-light text-center py-4 justify-content-center">
+                <div class="col-sm-10 col-md-8 col-lg-6">
+                    <img src="img/cov.png" alt="" />
+                    <p>
+                        Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+                        Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment.
+                        Our team's goal is to spread awareness to as much people as possible to let them know how they can stay safe in this situation
+                        and at the same time not spreading the virus much more.
+                    </p>
+                    <ul class="social pt-3">
+                        <li><a href="https://www.facebook.com/coronavirus_info/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/i/topics/1220701888179359745" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/who/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/channelnewsasia" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Start Socket -->
+    <div class="socket text-light text-center py-3">
+        <p>&copy;<a href="https://www.worldometers.info/coronavirus/" target="_blank">Covid-19 Live Update</a></p>
+    </div>
+    <!-- End Socket -->
+    <!-- Script Source Files -->
+    <!-- jQuery -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!-- Bootstrap 4.5 JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Popper JS -->
+    <script src="js/popper.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="js/all.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            // Gets the video src from the data-src on each button
+
+            var $videoSrc;
+            $('.video-btn').click(function () {
+                $videoSrc = $(this).data("src");
+            });
+            console.log($videoSrc);
+
+
+
+            // when the modal is opened autoplay it
+            $('#myModal').on('shown.bs.modal', function (e) {
+
+                // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+                $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+            })
+
+
+
+            // stop playing the youtube video when I close the modal
+            $('#myModal').on('hide.bs.modal', function (e) {
+                // a poor man's stop video
+                $("#video").attr('src', $videoSrc);
+            })
+
+
+
+
+
+
+            // document ready
+        });
+
+
+
+    </script>
+    <!-- End Script Source Files -->
+</body>
+</html>

@@ -1,0 +1,275 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Xing Ying" />
+    <meta name="description" content="FED Assignment - COVID 19 Vaccine" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/vaccineStyles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/vaccineScript.js"></script>
+    <title>Vaccine</title>
+</head>
+<body onload="fadeImage(9); hideGenderValidation();">
+    <div class="container-fluid">
+        <!-- Bootstrap Grid 1st row - Header -->
+        <div class="row">
+            <!-- Bootstrap Grid column, full width -->
+            <div class="col-sm-12">
+                <!-- To Do: Include the header section -->
+                <div w3-include-html="header.html"></div>
+            </div>
+        </div>
+        <main>
+            <header>
+                <div class="content-wrap">
+                    <h1>The COVID-19 Vaccine</h1>
+                    <p>
+                        Scientists all over the world are making many potential vaccines to reduce the chances of a person getting COVID-19 (World Health Organization,
+                        2020). The vaccines develop are designed to help the body’s immune system to recognise and block the virus that causes a person to have COVID-19 safely (World Health Organization, 2020).
+                    </p>
+                </div>
+            </header>
+
+            <section class="vaccine-info">
+                <div class="content-wrap">
+                    <h2>Types of Potential Vaccines</h2>
+                    <section class="type">
+                        <h3>Inactivited Weakened Virus Vaccines</h3>
+                        <p>
+                            This type of vaccine uses a form of the virus which has been inactivated or weaken thus it would not cause one
+                            to get COVID-19 (World Health Organization, 2020). Although the virus is being inactivated or weakened, it will still cause an immune response
+                            (World Health Organization, 2020).
+                        </p>
+                    </section>
+
+                    <section class="type">
+                        <h3>Protein-based Vaccines</h3>
+                        <p>
+                            This vaccine uses fragments of proteins or protein shells that are harmless (World Health Organization, 2020). These protein fragments and protein shell simulate the COVID-19
+                            virus to safely, bringing about an immune response (World Health Organization, 2020).
+                        </p>
+                    </section>
+
+                    <section class="type">
+                        <h3>Viral Vector Vaccines</h3>
+                        <p>
+                            This vaccine uses genetically engineered virus thus it has no ability to cause diseases. However, the virus produces coronavirus proteins to trigger an immune response safely
+                            (World Health Organization, 2020).
+                        </p>
+                    </section>
+                    <section>
+                        <h3>RNA and DNA Vaccines</h3>
+                        <p>
+                            These vaccines utilizes a cutting edge approach which uses RNA or DNA that are genetically engineered to produce a protein that generate an immune response safely (World Health
+                            Organization, 2020)
+                        </p>
+                    </section>
+                </div>
+            </section>
+
+            <section class="vaccine-image">
+                <div class="content-wrap">
+                    <h2>Examples of Available Vaccines</h2>
+                    <section class="example-images">
+                        <img id="1" src="img/vaccineImages/Pfizer.jpg" />
+                        <img id="2" src="img/vaccineImages/Moderna.jpg" />
+                        <img id="3" src="img/vaccineImages/Arcturus.jpg" />
+                        <img id="4" src="img/vaccineImages/AstraZeneca.jpg" />
+                        <img id="5" src="img/vaccineImages/Can-Sino.jpg" />
+                        <img id="6" src="img/vaccineImages/Sinovac.png" />
+                        <img id="7" src="img/vaccineImages/Bharat.jpg" />
+                        <img id="8" src="img/vaccineImages/Novavax.jpg" />
+                        <img id="9" src="img/vaccineImages/Sanofi.jpg" />
+                    </section>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br>
+                </div>
+            </section>
+
+            <section class="vaccine-example">
+                <div class="content-wrap">
+                    <section class="example-table">
+                        <table>
+                            <caption align="bottom">
+                                Some Examples of Available Vaccines<br />
+                                Taken from: <a href="https://www.moh.gov.sg/covid-19/vaccination" target="_blank">Ministry of Health, Singapore</a>
+                            </caption>
+                            <tr bgcolor="D4E8FF">
+                                <th scope="col">Types of Vaccine</th>
+                                <th scope="col">Examples</th>
+                            </tr>
+                            <tr bgcolor="C2E4F0">
+                                <th rowspan="3" scope="rowgroup">Messenger Ribonucleic Acid </th>
+                                <td>Pfizer-BioNTech</td>
+                            </tr>
+                            <tr bgcolor="C2E4F0">
+                                <td>Moderna</td>
+                            </tr>
+                            <tr bgcolor="C2E4F0">
+                                <td>Arcturus</td>
+                            </tr>
+                            <tr bgcolor="FCB0B3">
+                                <th rowspan="3" scope="rowgroup">Virus Vectored Vaccines</th>
+                                <td>Astra-Zeneca</td>
+                            </tr>
+                            <tr bgcolor="FCB0B3">
+                                <td>Gamaleya</td>
+                            </tr>
+                            <tr bgcolor="FCB0B3">
+                                <td>Can-Sino</td>
+                            </tr>
+                            <tr bgcolor="C0D684">
+                                <th rowspan="2" scope="rowgroup">Inactivated Virus Vaccines</th>
+                                <td>Sinovac</td>
+                            </tr>
+                            <tr bgcolor="C0D684">
+                                <td>Bharat</td>
+                            </tr>
+                            <tr bgcolor="F7EF81">
+                                <th rowspan="2" scope="rowgroup">Protein Subunit Vaccines</th>
+                                <td>Novavax</td>
+                            </tr>
+                            <tr bgcolor="F7EF81">
+                                <td>Sanofi-Pasteur</td>
+                            </tr>
+                            <tr bgcolor="FFE787">
+                                <th scope="row">Virus-like Particle </th>
+                                <td>Medicago</td>
+                            </tr>
+                        </table>
+                    </section>
+                </div>
+            </section>
+            <section class="vaccine-programme">
+                <div class="content-wrap">
+                    <h2>Singapore's COVID-19 Vaccination Program</h2>
+                    <section class="programme-info">
+                        <p>
+                            The COVID-19 vaccination programme aims to protect Singaporeans against COVID-19 and also the businesses and jobs when Singapore is continuously re-opening the country
+                            (Ministry of Health, 2021). One way to prevent COVID-19 is to get vaccinated as it reduces the risk of transmission and also ensure that our health system do not get overwhelmed
+                            (Ministry of Health, 2021). Also, the Islamic Religious Council of Singapore (MUIS)’s says that the vaccine is permissible for Muslim use thus the Muslims are able to take the
+                            vaccination (Ministry of Health, 2021). It is critical for Singapore to have a large population being vaccinated as it will contribute to the safety of majority of the people
+                            in Singapore (Ministry of Health, 2021). It will also impact those who are unfit to get vaccinated such as people who are severely immunocompromised or subgroups of people where
+                            safety data is unavailable (Ministry of Health, 2021). They will benefit since the risk of transmission will be reduce significantly (Ministry of Health, 2021).
+                            <br />
+                        </p>
+                        <p>
+                            In Singapore, the Pfizer-BioNTech COVID-19 vaccine was reviewed and endorsed for usage by people aged 16 years old and above (gov.sg, 2020). The vaccination will be carried out
+                            gradually (gov.sg, 2020). Priority will be given to people who are most likely to be infected, including healthcare and frontline workers (gov.sg, 2020). People who are very
+                            vulnerable to severe disease and complications if they are infected with COVID-19, including elderly and people with medical comorbidities will also be given priority (gov.sg, 2020).
+                            Vaccinations for healthcare workers will begin on 30 December 2020 and for the elderly who are aged 70 years and above, it will start from February 2021 (gov.sg, 2020).
+                        </p>
+                    </section>
+                </div>
+            </section>
+
+            <section class="mRNA-vaccine">
+                <div class="content-wrap">
+                    <h2>How do mRNA vaccines work?</h2>
+                    <section class="exp-mRNA">
+                        <p>
+                            The mRNA vaccine contains messenger ribonucleic acid (mRNA) where it carries instructions to produce the spike protein of the coronavirus (Ministry of Health, 2021).
+                            The mRNA used is synthesised and not taken from actual viruses (Ministry of Health, 2021). The mRNA will be given through intramuscular injection and the cells will take in
+                            the vaccine, then producing the spike protein (Ministry of Health, 2021). This will stimulate the production of good antibody and cellular immune response to the spike
+                            protein which will protect those who get vaccinated since the spike protein is a critical part of the SARS CoV-2 virus (Ministry of Health, 2021). However, these spike
+                            proteins are unable to form SARS Cov-2 viruses or give rise to COVID-19 infection (Ministry of Health, 2021). The mRNA vaccine only lasts for two days before it is being
+                            broken down by the body naturally (Ministry of Health, 2021). The vaccine does not enter the nucleus of the cells thus it has no capability of interfering with the DNA of
+                            the person taking the injection (Ministry of Health, 2021).
+                        </p>
+                    </section>
+                </div>
+            </section>
+
+            <section class="vaccine-form">
+                <div class="content-wrap">
+                    <section class="vform">
+                        <form>
+                            <h1>COVID 19 Vaccination Programme Registration Form</h1>
+                            <label for="name">Name: </label>
+                            <input name="name" id="name" required>
+                            <label for="nric">Identification Number: </label>
+                            <input name="nric" id="nric" pattern="[S|T|G|F]{1}[0-9]{7}[A-Z]{1}" title="Example: S1234567A" required /><br />
+                            <label for="gender" id="gender">Gender: </label>
+                            <input type="radio" id="male" name="gender" value="male" required onclick="genderValidation(); vaccineValidation()"> Male
+                            <input type="radio" id="female" name="gender" value="female" required onclick="genderValidation(), vaccineValidation()"> Female<br />
+                            <div id="gender-check" style="visibility:hidden">
+                                <label for="pregnancy">Are you pregnant?</label>
+                                <input type="radio" name="pregnancy" value="Y" required oninput="vaccineValidation()" />Yes
+                                <input type="radio" name="pregnancy" value="N" oninput="vaccineValidation()" />No<br />
+                            </div>
+                            <label for="age">Age: </label>
+                            <input type="number" id="age" name="age" min="0" max="150" required oninput="vaccineValidation(), hideText();"><br>
+                            <label for="address">Address: </label>
+                            <textarea rows="1" cols="30" id="address" required></textarea>
+                            <label for="postalcode">Postal Code: </label>
+                            <input type="text" id="postalcode" name="postalcode" pattern="[0-9]{6}" title="Only 6 digit Postal Code" required /><br>
+                            <label for="phone">Phone Number: </label>
+                            <input type="tel" id="phone" name="phone" pattern="[6|8|9]{1}[0-9]{7}" title="Start with 6,8 or 9" required><br>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" placeholder="Enter email address"><br>
+                            <label for="allergies">Allergies(if any): </label>
+                            <textarea rows="1" cols="30"></textarea><br />
+                            <div>
+                                <p id="displayvalidation"></p>
+                            </div>
+                            <div class="submit-reset">
+                                <input type="button" value="Submit" onclick="confirmationText()">
+                                <input type="reset" value="Reset"><br />
+                            </div>
+                            <p>
+                                By clicking on Submit, you consent to receive emails and calls regarding the follow up of the vaccination program. You also agreed that in the event
+                                you experience severe side effects or death after leaving the vaccination area, the hospitals, clinics and vaccination center will not be held responsible.
+                            </p>
+                            <p></p>
+                            <div>
+                                <p id="displaycfmtext"></p>
+                            </div>
+                        </form>
+                    </section>
+                </div>
+            </section>
+
+            <section class="learn">
+                <div class="content-wrap">
+                    <section class="learn-more">
+                        <h2>Learn more about the COVID-19 Vaccine at:</h2>
+                        <a class="btn" href="https://www.moh.gov.sg/covid-19/vaccination" target="_blank">Ministry of Health</a>
+                        <a class="btn" href="https://www.gov.sg/article/what-you-should-know-about-the-covid-19-vaccine" target="_blank">gov.sg</a>
+                        <a class="btn" href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines?adgroupsurvey={adgroupsurvey}&gclid=CjwKCAiA6aSABhApEiwA6Cbm_8eG-nn432hpK2ypPtpNJokDomTeIpkfhBpWPcNghkzQYOqp2MQ6WxoCvvAQAvD_BwE" target="_blank">World Health Organisation</a>
+                    </section>
+                </div>
+            </section>
+        </main>
+        <div class="row">
+            <!-- Bootstrap Grid column, full width -->
+            <div class="col-sm-12">
+                <!-- To Do: Include the footer section -->
+                <div w3-include-html="footer.html"></div>
+            </div>
+        </div>
+        <!-- End of Bootstrap container div -->
+    </div>
+
+    <!-- To Do: Call the includeHTML() function when loading the page -->
+    <script>
+        w3.includeHTML();
+    </script>
+
+</body>
+</html>

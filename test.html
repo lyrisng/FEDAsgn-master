@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title>Covid-19 Informative Website</title>
+	<link rel="stylesheet" href="css/yida.css" />
+	<script src="js/yidascript.js"></script>
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script>
+		$(function(){
+		$("#header").load("index.html");
+		$("#footer").load("footer.html");
+		});
+	</script>
+</head>
+	
+	
+<body>
+	 <!-- <div id="header"></div> -->
+	<div id="header"></div>
+	<div class="sidenav">
+		<a href="#who">Who</a>
+		<a href="#how">How</a>
+		<a href="#what">What</a>
+	</div>
+
+	<div class ="border" id ="who"> 
+		<h1 class="block-effect" style="--td: 1.2s">
+			<div class="block-reveal" style="--bc: #a6f6ff; --d: .1s">Who</div>
+			<div class="block-reveal" style="--bc: #ffffff; --d: .8s">needs to be tested?</div>
+		</h1>
+			<ul>
+				<li>People who have symptoms of COVID-19.</li><br>
+				<li>People who have had close contact (within 6 feet of an infected person for a cumulative total of 15 minutes or more over a 24-hour period) with someone with confirmed COVID-19.</li><br>
+				<li>People who have taken part in activities that put them at higher risk for COVID-19 because they cannot socially distance as needed, such as travel, attending large social or mass gatherings, or being in crowded indoor settings.</li><br>
+				<li>People who have recently travelled overseas.</li><br>
+				<li>People who have been asked or referred to get testing by their healthcare provider.</li><br>
+			</ul>
+			<a>If you do get tested because you have COVID-19 symptoms or have had a close contact with someone who has it, you should self-quarantine at home pending test results and follow the advice of your healthcare provider or a public health professional.</a>
+	</div>
+	
+	<div class="border" id="how">
+		<h1 class="block-effect" style="--td: 1.2s">
+			<div class="block-reveal" style="--bc: #a6f6ff; --d: 1.9s">How</div>
+			<div class="block-reveal" style="--bc: #ffffff; --d: 2.6s">much for a covid test?</div>
+		</h1>
+		<p>
+			The Government has thus far borne the costs of stay at dedicated SHN facilities for travellers entering Singapore, except for those who left Singapore from 27 March 2020, despite the prevailing travel advisory. The Government has also borne the costs of the large majority of COVID-19 tests.
+		</p>
+		<p>
+			As we re-open our borders to more international travel, those who enter Singapore would have to bear the costs of fulfilling these requirements, as part of the cost of travel in a COVID-19 world.
+		
+			From 17 June 2020, 2359 hours, all inbound and outbound travellers who enter or leave Singapore will be required to pay for their COVID-19 tests, where applicable.
+		</p>
+		<p>  All travellers, including Singapore Citizens and Permanent Residents, who last left Singapore from 27 March 2020 despite the prevailing travel advisory, will have to continue to bear the costs of their stay at dedicated SHN facilities where applicable, as well as the cost of their COVID-19 tests.
+
+			From 17 June 2020, 2359 hours, all incoming travellers who are not Singapore Citizens or Permanent Residents will be required to pay for their stay at dedicated SHN facilities, where applicable.
+		</p>
+
+
+
+	<button class="button" onclick="tabla()">
+		<span>Hide/Show </span>
+	</button>
+	<div id="tabl">
+		<table>
+			<tbody>
+				<tr>
+					<td>
+						<p>
+							COVID-19 test for persons under SHN
+						</p>
+					</td>
+					<td>
+						<p>
+							<span>
+								Up to $200<sup>^</sup><br>(inclusive of GST)
+							</span>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>
+							14-day stay at dedicated SHN facility
+						</p>
+					</td>
+					<td>
+						<p>
+								$2,000<br>(inclusive of GST)
+						</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	
+	</div>
+
+	<div class="border" id="what">
+		<h1 class="block-effect" style="--td: 1.2s">
+			<div class="block-reveal" style="--bc: #a6f6ff; --d: 3.7s">What</div>
+			<div class="block-reveal" style="--bc: #ffffff; --d: 4.4s">to do after a covid test.</div>
+		</h1>
+		<p>
+			If you test positive for COVID-19, know what protective steps to take if you are sick.
+			Most people have mild COVID-19 illness and can recover at home without medical care. Contact your healthcare provider if your symptoms get worse or if you have questions about your health.
+		</p>
+		<p>
+			If you test negative for COVID-19, you probably were not infected at the time your sample was collected. This does not mean you will not get sick:
+			A negative test result only means that you did not have COVID-19 at the time of testing or that your sample was collected too early in your infection.
+		</p>
+		<p>
+			You could also be exposed to COVID-19 after the test and then get infected and spread the virus to others.
+			If you have symptoms later, you may need another test to determine if you are infected with the virus that causes COVID-19.
+		</p>
+	</div>
+
+	<div class ="border1">
+	<div class="container">
+
+		<!-- Full-width images with number text -->
+		<div class="mySlides">
+			<div class="numbertext">1 / 4</div>
+			<img src="img/669947.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">2 / 4</div>
+			<img src="img/mantest.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">3 / 4</div>
+			<img src="img/mworker.png" style="width:100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">4 / 4</div>
+			<img src="img/womantest.png" style="width:100%">
+		</div>
+
+		<!-- Next and previous buttons -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		<!-- Image text -->
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+
+		<!-- Thumbnail images -->
+		<div class="row">
+			<div class="column">
+				<img class="demo cursor" src="img/669947.jpg" style="width:100%" onclick="currentSlide(1)" alt="Two workers being tested">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="img/mantest.jpg" style="width:100%" onclick="currentSlide(2)" alt="A man getting tested">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="img/mworker.png" style="width:100%" onclick="currentSlide(3)" alt="A migrant worker being tested">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="img/womantest.png" style="width:100%" onclick="currentSlide(4)" alt="A woman being tested">
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+	<div class="border1">
+		<form action="/" class="decor" onsubmit="return false">
+			<div class="form-inner">
+				<h1>Contact us</h1>
+				<br>
+				<a>Still unsure? Drop us a message and we can forward you to the relevant healthcare professionals.</a>
+				<br>
+				<br>
+				<input type="text" placeholder="Name" required="">
+					<input type="email" placeholder="Email" required="">
+						<textarea placeholder="Message..." rows="5" required=""></textarea>
+						<button type="submit" onclick="aler()">Submit</button>
+			</div>
+		</form>
+	</div>
+	</div>
+		
+	<div>
+		<footer>
+			<p>Author: Wong Yi Da</p>
+			<p>
+				<a>References:</a>
+				<br>
+				<a href="https://www.cdc.gov/coronavirus/2019-ncov/testing/index.html">CDC Covid-19 Testing</a>
+				<br>
+				<a href="https://www.straitstimes.com/singapore/travellers-entering-spore-from-june-18-will-be-tested-before-end-of-their-stay-home-notice">SHN prices</a>
+			</p>
+		</footer>
+	</div>
+</body>
+
+	
+
+	
